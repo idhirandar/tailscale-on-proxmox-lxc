@@ -1,4 +1,4 @@
-# Tailscale install guide on proxmox lxc
+# Tailscale on proxmox lxc
 
 Simple yet effective guide to install tailscale on proxmox lxc conatainer in this demonstration i used Ubuntu 20.4 standard for other distro you can used tailscale offecial [guide](https://tailscale.com/download/linux/oracle-linux-8).
 
@@ -6,7 +6,7 @@ Simple yet effective guide to install tailscale on proxmox lxc conatainer in thi
 
 ![image](https://github.com/idhirandar/test-01/blob/main/img/01.png)
 
-## Install tailscale on conatainer (from container cli)
+## Install tailscale on container (from container cli)
 
 - This script will install tailscale package. (from tailscale offcial site )
 
