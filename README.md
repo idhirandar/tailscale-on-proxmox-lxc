@@ -29,7 +29,7 @@ sudo sysctl -p /etc/sysctl.d/99-tailscale.conf
 ***( Replace xxx with your_container_id on proxmox)***
 
 ```shell
-echo 'lxc.cgroup.devices.allow: c 10:200 rwm' >> /etc/pve/lxc/xxx.conf
+echo 'lxc.cgroup2.devices.allow: c 10:200 rwm' >> /etc/pve/lxc/xxx.conf
 echo 'lxc.mount.entry: /dev/net/tun dev/net/tun none bind,create=file' >> /etc/pve/lxc/xxx.conf
 ```
 
